@@ -6,6 +6,8 @@
 
 body {
   font-family: 'Muli', sans-serif;
+  background-color: black;
+  background-image: url('https://cdn.pixabay.com/animation/2023/03/19/02/34/02-34-11-741_512.gif');
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,6 +24,8 @@ body {
 .slide {
   background-size: cover;
   background-position: center;
+  border-style: double;
+  border-color: red;
   background-repeat: no-repeat;
   height: 80vh;
   border-radius: 50px;
@@ -37,6 +41,8 @@ body {
   font-size: 24px;
   color: white;
   position: absolute;
+  text-decoration: underline;
+  text-shadow: 10px;
   bottom: 20px;
   left: 20px;
   margin: 0;
@@ -53,7 +59,7 @@ body {
 }
 
 @media (max-width: 480px) {
-  .container {
+  .box {
     width: 100vw;
   }
 
