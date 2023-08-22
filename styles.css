@@ -34,7 +34,7 @@ body {
   flex: 0.5;
   margin: 10px;
   position: relative;
-  -webkit-transition: all 700ms ease-in;
+  -webkit-transition: all 1000ms ease-in;
 }
 
 .slide h3 {
